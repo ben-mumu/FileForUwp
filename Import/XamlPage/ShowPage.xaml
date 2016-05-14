@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Import.XamlPage.ShowPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Import.XamlPage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=" Auto"/>
+            <RowDefinition Height=" *"/>
+        </Grid.RowDefinitions>
+
+        <RelativePanel x:Name="TopWritePage" Grid.Row="0">
+            <Button x:Name="SHPBack" 
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE0A6;"
+                    FontSize="24"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                    Margin="10,5"
+                    Click="SHPBack_Click"/>
+            <Button x:Name="ClearFile"
+                    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                    RelativePanel.AlignRightWithPanel="True"
+                    Margin="10,5"
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE74D;"
+                    FontSize="24"
+                    Click="ClearFile_Click"/>
+        </RelativePanel>
+
+        <ScrollViewer Grid.Row="1">
+            <TextBlock x:Name="WriteBlock"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Stretch"
+                       VerticalAlignment="Stretch"
+                       Tapped="WriteBlock_Tapped"
+                       Padding="10"
+                       />
+        </ScrollViewer>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,10 @@
+/out:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\intermediate\SgGenerated\\"
+/int:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\intermediate\\"
+/ref:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\intermediate\TransformedSRWR\\"
+/ref:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\in\\"
+/ref:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\in\\"
+/ref:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\ARM\ilc\lib\Private\\"
+/ref:"E:\sourceForCShare\Import\Import\obj\ARM\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib
